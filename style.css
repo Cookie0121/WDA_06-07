@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background: rgb(255 84 104 / 30%);
+  border: 2px solid rgb(255 84 104);
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: white;
+  border: 1px solid black;
+}
+
+.wrappper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.wrappper > div {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #cfe8dc;
+    padding: 1em;
+}
+
+.gridLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+}
+
+.gridLayout > div {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #d3b4fe;
+    padding: 1em;
+}
+
+/* フレックスボックスを作る */
+.container{
+    display: flex;
+}
+
+/* container(親要素)の中にあるp要素(子要素)の指定 */
+.container > p {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #cfe5e8;
+    padding: 1em;
+}
