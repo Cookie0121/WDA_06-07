@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -57,4 +57,5 @@ span {
     border-radius: 5px;
     background-color: #cfe5e8;
     padding: 1em;
+
 }
