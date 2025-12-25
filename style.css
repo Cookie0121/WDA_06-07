@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  width: 100%;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -59,3 +59,4 @@ span {
     padding: 1em;
 
 }
+
